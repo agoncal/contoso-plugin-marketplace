@@ -28,41 +28,41 @@ copilot plugin install contoso-code-review@contoso-marketplace
 
 ### General Purpose (all projects)
 
-| Plugin                      | Description                                                                                                  |
-|-----------------------------|--------------------------------------------------------------------------------------------------------------|
-| **contoso-code-review**     | Automated code review with Contoso coding standards enforcement, PR analysis, and improvement suggestions    |
-| **contoso-documentation**   | Generate and maintain API docs, READMEs, and ADRs following Contoso documentation standards                  |
-| **contoso-git-workflow**    | Enforce Contoso Git branching strategy, commit message conventions, and PR workflow automation               |
-| **contoso-code-quality**    | Code quality enforcement with auto-fix for linting issues, formatting standards, and complexity checks       |
-| **contoso-secret-scanning** | Detect and prevent secrets, API keys, passwords, and credentials from being committed                        |
-| **contoso-ci-cd**           | Generate, validate, and optimize CI/CD pipeline configurations for GitHub Actions, Azure DevOps, and Jenkins |
-| **contoso-testing**         | Generate unit, integration, and E2E tests with coverage tracking and test strategy guidance                  |
+| Plugin | Description | Details |
+|--------|-------------|---------|
+| **contoso-code-review** | Automated code review with Contoso coding standards enforcement, PR analysis, and improvement suggestions | [README](plugins/contoso-code-review/README.md) |
+| **contoso-documentation** | Generate and maintain API docs, READMEs, and ADRs following Contoso documentation standards | [README](plugins/contoso-documentation/README.md) |
+| **contoso-git-workflow** | Enforce Contoso Git branching strategy, commit message conventions, and PR workflow automation | [README](plugins/contoso-git-workflow/README.md) |
+| **contoso-code-quality** | Code quality enforcement with auto-fix for linting issues, formatting standards, and complexity checks | [README](plugins/contoso-code-quality/README.md) |
+| **contoso-secret-scanning** | Detect and prevent secrets, API keys, passwords, and credentials from being committed | [README](plugins/contoso-secret-scanning/README.md) |
+| **contoso-ci-cd** | Generate, validate, and optimize CI/CD pipeline configurations for GitHub Actions, Azure DevOps, and Jenkins | [README](plugins/contoso-ci-cd/README.md) |
+| **contoso-testing** | Generate unit, integration, and E2E tests with coverage tracking and test strategy guidance | [README](plugins/contoso-testing/README.md) |
 
 ### Frontend
 
-| Plugin                       | Description                                                                                           |
-|------------------------------|-------------------------------------------------------------------------------------------------------|
-| **contoso-frontend**         | General frontend expertise — UI component scaffolding, accessibility (WCAG 2.1 AA), responsive design |
-| **contoso-frontend-react**   | React-specific — component patterns, hooks, state management, Contoso React style guide               |
-| **contoso-frontend-angular** | Angular-specific — standalone components, signals, RxJS patterns, Contoso Angular style guide         |
+| Plugin | Description | Details |
+|--------|-------------|---------|
+| **contoso-frontend** | General frontend expertise — UI component scaffolding, accessibility (WCAG 2.1 AA), responsive design | [README](plugins/contoso-frontend/README.md) |
+| **contoso-frontend-react** | React-specific — component patterns, hooks, state management, Contoso React style guide | [README](plugins/contoso-frontend-react/README.md) |
+| **contoso-frontend-angular** | Angular-specific — standalone components, signals, RxJS patterns, Contoso Angular style guide | [README](plugins/contoso-frontend-angular/README.md) |
 
 ### Backend
 
-| Plugin                         | Description                                                                                             |
-|--------------------------------|---------------------------------------------------------------------------------------------------------|
-| **contoso-backend**            | General backend/API expertise — REST/GraphQL API design, microservice patterns, Contoso API conventions |
-| **contoso-backend-java**       | Java/Spring Boot — Maven/Gradle management, Spring patterns, Contoso Java standards                     |
-| **contoso-backend-dotnet**     | .NET/C# — NuGet/MSBuild management, Clean Architecture, Contoso .NET conventions                        |
-| **contoso-backend-python**     | Python — Poetry management, FastAPI/Django patterns, Contoso PEP standards                              |
-| **contoso-backend-typescript** | TypeScript/Node.js — NestJS/Express patterns, strict typing, Contoso TypeScript standards               |
+| Plugin | Description | Details |
+|--------|-------------|---------|
+| **contoso-backend** | General backend/API expertise — REST/GraphQL API design, microservice patterns, Contoso API conventions | [README](plugins/contoso-backend/README.md) |
+| **contoso-backend-java** | Java/Spring Boot — Maven/Gradle management, Spring patterns, Contoso Java standards | [README](plugins/contoso-backend-java/README.md) |
+| **contoso-backend-dotnet** | .NET/C# — NuGet/MSBuild management, Clean Architecture, Contoso .NET conventions | [README](plugins/contoso-backend-dotnet/README.md) |
+| **contoso-backend-python** | Python — Poetry management, FastAPI/Django patterns, Contoso PEP standards | [README](plugins/contoso-backend-python/README.md) |
+| **contoso-backend-typescript** | TypeScript/Node.js — NestJS/Express patterns, strict typing, Contoso TypeScript standards | [README](plugins/contoso-backend-typescript/README.md) |
 
 ### Infrastructure, Security & Mobile
 
-| Plugin                     | Description                                                                                    |
-|----------------------------|------------------------------------------------------------------------------------------------|
-| **contoso-infrastructure** | Infrastructure-as-Code — Terraform, Bicep generation with Contoso IaC best practices           |
-| **contoso-security**       | Application security — OWASP-based vulnerability scanning, dependency audits, security reviews |
-| **contoso-mobile**         | Mobile development — React Native/Flutter patterns, performance optimization, accessibility    |
+| Plugin | Description | Details |
+|--------|-------------|---------|
+| **contoso-infrastructure** | Infrastructure-as-Code — Terraform, Bicep generation with Contoso IaC best practices | [README](plugins/contoso-infrastructure/README.md) |
+| **contoso-security** | Application security — OWASP-based vulnerability scanning, dependency audits, security reviews | [README](plugins/contoso-security/README.md) |
+| **contoso-mobile** | Mobile development — React Native/Flutter patterns, performance optimization, accessibility | [README](plugins/contoso-mobile/README.md) |
 
 ## Plugin Structure
 
