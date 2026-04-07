@@ -8,6 +8,11 @@ General backend and API development — REST/GraphQL API design, microservice pa
 |------|------|-------------|
 | Agent | `contoso-backend` | Backend and API development expert |
 | Skill | `contoso-backend-api-design` | REST/GraphQL API design |
+| Skill | `contoso-backend-error-handling` | Standardized error handling patterns |
+| Skill | `contoso-backend-database-migration` | Migration patterns (Flyway, Liquibase, Alembic) |
+| Skill | `contoso-backend-authentication` | JWT/OAuth2 implementation patterns |
+| Skill | `contoso-backend-health-check` | Health/readiness/liveness endpoints |
+| Skill | `contoso-backend-caching` | Redis/in-memory caching strategies |
 | Hook | PreToolCall on `create` | Enforces API versioning and error handling in route/controller files |
 
 ## Installation

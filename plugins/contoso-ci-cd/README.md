@@ -8,6 +8,9 @@ Generate, validate, and optimize CI/CD pipeline configurations for GitHub Action
 |------|------|-------------|
 | Agent | `contoso-ci-cd` | CI/CD pipeline generator and optimizer |
 | Skill | `contoso-ci-cd-pipeline` | Generate and validate CI/CD configurations |
+| Skill | `contoso-ci-cd-docker` | Dockerfile and multi-stage build best practices |
+| Skill | `contoso-ci-cd-release` | Semantic versioning and release management |
+| Skill | `contoso-ci-cd-quality-gate` | Quality gate configuration and enforcement |
 | Hook | PostToolCall on `create` | Validates pipeline YAML syntax after creation |
 
 ## Installation

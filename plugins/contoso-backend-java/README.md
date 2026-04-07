@@ -8,6 +8,8 @@ Java and Spring Boot development — Maven/Gradle management, Spring patterns, a
 |------|------|-------------|
 | Agent | `contoso-backend-java` | Java/Spring Boot development expert |
 | Skill | `contoso-backend-java-maven-gradle` | Build tool management |
+| Skill | `contoso-backend-java-jpa` | JPA entity, repository, and query patterns |
+| Skill | `contoso-backend-java-exception-handling` | @ControllerAdvice and custom exception hierarchy |
 | Hook | PreToolCall on `edit` | Enforces constructor injection and Contoso Java standards in `.java` files |
 
 ## Installation

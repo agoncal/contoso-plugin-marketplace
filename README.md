@@ -109,7 +109,9 @@ Plugins follow a flat hierarchy with naming-based structure:
 ### Updating and Uninstalling Plugins
 
 ```shell
+/plugin update contoso-backend   # Update a plugin
 /plugin update contoso-backend-java   # Update a plugin
+/plugin update contoso-ci-cd   # Update a plugin
 /plugin uninstall contoso-backend-java # Remove a plugin
 ```
 
