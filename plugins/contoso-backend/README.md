@@ -7,6 +7,9 @@ General backend and API development — REST/GraphQL API design, microservice pa
 | Type | Name | Description |
 |------|------|-------------|
 | Agent | `contoso-backend` | Backend and API development expert |
+| Agent | `contoso-backend-database-architect` | Schema design, migration planning, query optimization |
+| Agent | `contoso-backend-microservice-designer` | Service decomposition, API contracts, event-driven patterns |
+| Agent | `contoso-backend-api-reviewer` | API design review and OpenAPI spec validation |
 | Skill | `contoso-backend-api-design` | REST/GraphQL API design |
 | Skill | `contoso-backend-error-handling` | Standardized error handling patterns |
 | Skill | `contoso-backend-database-migration` | Migration patterns (Flyway, Liquibase, Alembic) |

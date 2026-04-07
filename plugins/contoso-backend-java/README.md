@@ -7,6 +7,8 @@ Java and Spring Boot development — Maven/Gradle management, Spring patterns, a
 | Type | Name | Description |
 |------|------|-------------|
 | Agent | `contoso-backend-java` | Java/Spring Boot development expert |
+| Agent | `contoso-backend-java-migrator` | Java/Spring Boot version migration guide |
+| Agent | `contoso-backend-java-debugger` | JVM troubleshooting, memory leaks, thread dumps |
 | Skill | `contoso-backend-java-maven-gradle` | Build tool management |
 | Skill | `contoso-backend-java-jpa` | JPA entity, repository, and query patterns |
 | Skill | `contoso-backend-java-exception-handling` | @ControllerAdvice and custom exception hierarchy |
