@@ -1,7 +1,7 @@
 {
   "name": "contoso-code-quality",
   "description": "Code quality enforcement with auto-fix for linting issues, formatting standards, and complexity checks.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Contoso Engineering",
     "email": "engineering@contoso.com"

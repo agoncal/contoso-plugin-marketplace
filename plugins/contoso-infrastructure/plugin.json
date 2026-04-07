@@ -1,7 +1,7 @@
 {
   "name": "contoso-infrastructure",
   "description": "Infrastructure-as-Code expertise — Terraform, Bicep, and CloudFormation generation with Contoso IaC best practices.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Contoso Engineering",
     "email": "engineering@contoso.com"

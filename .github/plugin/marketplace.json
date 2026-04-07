@@ -2,7 +2,7 @@
   "name": "contoso-marketplace",
   "metadata": {
     "description": "Contoso Engineering Plugin Marketplace — curated AI plugins for coding standards, domain expertise, and technology-specific development workflows.",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "owner": {
     "name": "Contoso Engineering",
@@ -12,109 +12,109 @@
     {
       "name": "contoso-code-review",
       "description": "Automated code review with Contoso coding standards enforcement, PR analysis, and improvement suggestions.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/contoso-code-review"
     },
     {
       "name": "contoso-documentation",
       "description": "Generate and maintain API docs, READMEs, and architecture decision records following Contoso documentation standards.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/contoso-documentation"
     },
     {
       "name": "contoso-git-workflow",
       "description": "Enforce Contoso Git branching strategy, commit message conventions, and PR workflow automation.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/contoso-git-workflow"
     },
     {
       "name": "contoso-code-quality",
       "description": "Code quality enforcement with auto-fix for linting issues, formatting standards, and complexity checks.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/contoso-code-quality"
     },
     {
       "name": "contoso-secret-scanning",
       "description": "Detect and prevent secrets, API keys, passwords, and credentials from being committed to repositories.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/contoso-secret-scanning"
     },
     {
       "name": "contoso-ci-cd",
       "description": "Generate, validate, and optimize CI/CD pipeline configurations for GitHub Actions, Azure DevOps, and Jenkins.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/contoso-ci-cd"
     },
     {
       "name": "contoso-testing",
       "description": "Generate unit, integration, and end-to-end tests with coverage tracking and test strategy guidance.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/contoso-testing"
     },
     {
       "name": "contoso-frontend",
       "description": "General frontend development expertise — UI component scaffolding, accessibility compliance, and responsive design patterns.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/contoso-frontend"
     },
     {
       "name": "contoso-frontend-react",
       "description": "React-specific development — component patterns, hooks, state management, and Contoso React style guide enforcement.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/contoso-frontend-react"
     },
     {
       "name": "contoso-frontend-angular",
       "description": "Angular-specific development — component/service generation, RxJS patterns, and Contoso Angular style guide enforcement.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/contoso-frontend-angular"
     },
     {
       "name": "contoso-backend",
       "description": "General backend and API development — REST/GraphQL API design, microservice patterns, and Contoso API conventions.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/contoso-backend"
     },
     {
       "name": "contoso-backend-java",
       "description": "Java and Spring Boot development — Maven/Gradle management, Spring patterns, and Contoso Java coding standards.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/contoso-backend-java"
     },
     {
       "name": "contoso-backend-dotnet",
       "description": ".NET and C# development — NuGet/MSBuild management, ASP.NET patterns, and Contoso .NET conventions.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/contoso-backend-dotnet"
     },
     {
       "name": "contoso-backend-python",
       "description": "Python development — pip/Poetry management, FastAPI/Django patterns, and Contoso PEP standards enforcement.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/contoso-backend-python"
     },
     {
       "name": "contoso-backend-typescript",
       "description": "TypeScript and Node.js backend development — project configuration, Express/NestJS patterns, and strict typing enforcement.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/contoso-backend-typescript"
     },
     {
       "name": "contoso-infrastructure",
       "description": "Infrastructure-as-Code expertise — Terraform, Bicep, and CloudFormation generation with Contoso IaC best practices.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/contoso-infrastructure"
     },
     {
       "name": "contoso-security",
       "description": "Application security — OWASP-based vulnerability scanning, dependency audits, and security review workflows.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/contoso-security"
     },
     {
       "name": "contoso-mobile",
       "description": "Mobile development — cross-platform patterns, performance optimization, and mobile-specific UI guidelines.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/contoso-mobile"
     }
   ]

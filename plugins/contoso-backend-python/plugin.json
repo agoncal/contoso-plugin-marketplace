@@ -1,7 +1,7 @@
 {
   "name": "contoso-backend-python",
   "description": "Python development — pip/Poetry management, FastAPI/Django patterns, and Contoso PEP standards enforcement.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Contoso Engineering",
     "email": "engineering@contoso.com"
