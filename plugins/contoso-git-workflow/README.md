@@ -6,8 +6,8 @@ Enforce Contoso Git branching strategy, commit message conventions, and PR workf
 
 | Type | Name | Description |
 |------|------|-------------|
-| Agent | `git-assistant` | Git workflow assistant enforcing Contoso conventions |
-| Skill | `branching` | Contoso branching strategy enforcement |
+| Agent | `contoso-git-workflow` | Git workflow assistant enforcing Contoso conventions |
+| Skill | `contoso-git-workflow-branching` | Contoso branching strategy enforcement |
 | Hook | PreToolCall on `bash` | Enforces Conventional Commits format on git commit commands |
 
 ## Installation
@@ -18,7 +18,7 @@ copilot plugin install contoso-git-workflow@contoso-marketplace
 
 ## What It Does
 
-The **git-assistant** agent enforces the Contoso Git workflow:
+The **contoso-git-workflow** agent enforces the Contoso Git workflow:
 
 - **Branching strategy**: `main`, `develop`, `feature/*`, `bugfix/*`, `hotfix/*`, `release/*`
 - **Branch naming**: `{type}/{ticket-id}-{short-description}` (e.g., `feature/CONT-1234-user-auth`)

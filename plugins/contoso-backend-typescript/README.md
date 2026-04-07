@@ -6,8 +6,8 @@ TypeScript and Node.js backend development — project configuration, Express/Ne
 
 | Type | Name | Description |
 |------|------|-------------|
-| Agent | `typescript-expert` | TypeScript/Node.js backend expert |
-| Skill | `ts-node` | TypeScript backend patterns |
+| Agent | `contoso-backend-typescript` | TypeScript/Node.js backend expert |
+| Skill | `contoso-backend-typescript-ts-node` | TypeScript backend patterns |
 | Hook | PreToolCall on `edit` | Enforces strict typing and no `any` usage in `.ts` files |
 
 ## Installation
@@ -18,7 +18,7 @@ copilot plugin install contoso-backend-typescript@contoso-marketplace
 
 ## What It Does
 
-The **typescript-expert** agent enforces Contoso's TypeScript backend standards:
+The **contoso-backend-typescript** agent enforces Contoso's TypeScript backend standards:
 
 - **TypeScript 5.x** with strict mode, `noUncheckedIndexedAccess`, `exactOptionalPropertyTypes`
 - **ESM modules exclusively** — no CommonJS in new projects

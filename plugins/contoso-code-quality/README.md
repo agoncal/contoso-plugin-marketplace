@@ -6,8 +6,8 @@ Code quality enforcement with auto-fix for linting issues, formatting standards,
 
 | Type | Name | Description |
 |------|------|-------------|
-| Agent | `quality-enforcer` | Code quality enforcer for formatting and complexity |
-| Skill | `lint-fix` | Auto-fix linting issues |
+| Agent | `contoso-code-quality` | Code quality enforcer for formatting and complexity |
+| Skill | `contoso-code-quality-lint-fix` | Auto-fix linting issues |
 | Hook | PreToolCall on `edit` | Checks formatting compliance before applying edits |
 
 ## Installation
@@ -18,7 +18,7 @@ copilot plugin install contoso-code-quality@contoso-marketplace
 
 ## What It Does
 
-The **quality-enforcer** agent ensures code meets Contoso's quality standards:
+The **contoso-code-quality** agent ensures code meets Contoso's quality standards:
 
 - **Cyclomatic complexity**: Max 10 per function
 - **Cognitive complexity**: Max 15 per function

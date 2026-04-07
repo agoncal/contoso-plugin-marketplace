@@ -6,8 +6,8 @@ General backend and API development — REST/GraphQL API design, microservice pa
 
 | Type | Name | Description |
 |------|------|-------------|
-| Agent | `backend-expert` | Backend and API development expert |
-| Skill | `api-design` | REST/GraphQL API design |
+| Agent | `contoso-backend` | Backend and API development expert |
+| Skill | `contoso-backend-api-design` | REST/GraphQL API design |
 | Hook | PreToolCall on `create` | Enforces API versioning and error handling in route/controller files |
 
 ## Installation
@@ -18,7 +18,7 @@ copilot plugin install contoso-backend@contoso-marketplace
 
 ## What It Does
 
-The **backend-expert** agent enforces Contoso's API conventions:
+The **contoso-backend** agent enforces Contoso's API conventions:
 
 - **URL structure**: `/api/v{version}/` with plural nouns, kebab-case, max 2 nesting levels
 - **HTTP methods**: Proper usage with correct status codes (201+Location for POST, 204 for DELETE)

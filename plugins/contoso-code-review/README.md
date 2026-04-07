@@ -6,8 +6,8 @@ Automated code review with Contoso coding standards enforcement, PR analysis, an
 
 | Type | Name | Description |
 |------|------|-------------|
-| Agent | `code-reviewer` | Senior code reviewer enforcing Contoso coding standards |
-| Skill | `review` | Structured code review workflow |
+| Agent | `contoso-code-review` | Senior code reviewer enforcing Contoso coding standards |
+| Skill | `contoso-code-review-review` | Structured code review workflow |
 | Hook | PreToolCall on `edit` | Reminds to follow Contoso coding standards before edits |
 
 ## Installation
@@ -18,7 +18,7 @@ copilot plugin install contoso-code-review@contoso-marketplace
 
 ## What It Does
 
-The **code-reviewer** agent acts as a senior Contoso code reviewer. It enforces:
+The **contoso-code-review** agent acts as a senior Contoso code reviewer. It enforces:
 
 - **Function length**: Maximum 30 lines per function
 - **Naming**: Meaningful, descriptive variable and function names

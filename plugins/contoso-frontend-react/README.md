@@ -6,8 +6,8 @@ React-specific development — component patterns, hooks, state management, and 
 
 | Type | Name | Description |
 |------|------|-------------|
-| Agent | `react-expert` | React development expert with TypeScript |
-| Skill | `react-patterns` | React component and hook patterns |
+| Agent | `contoso-frontend-react` | React development expert with TypeScript |
+| Skill | `contoso-frontend-react-patterns` | React component and hook patterns |
 | Hook | PreToolCall on `create` | Enforces functional components with TypeScript in `.tsx`/`.jsx` files |
 
 ## Installation
@@ -18,7 +18,7 @@ copilot plugin install contoso-frontend-react@contoso-marketplace
 
 ## What It Does
 
-The **react-expert** agent enforces Contoso's React standards:
+The **contoso-frontend-react** agent enforces Contoso's React standards:
 
 - **Functional components only** with TypeScript and named exports
 - **Hooks**: Correct dependency arrays, cleanup functions, custom hooks for shared logic

@@ -6,8 +6,8 @@ Mobile development — cross-platform patterns, performance optimization, and mo
 
 | Type | Name | Description |
 |------|------|-------------|
-| Agent | `mobile-expert` | Mobile development expert for cross-platform apps |
-| Skill | `mobile-scaffold` | Mobile project scaffolding |
+| Agent | `contoso-mobile` | Mobile development expert for cross-platform apps |
+| Skill | `contoso-mobile-scaffold` | Mobile project scaffolding |
 | Hook | PreToolCall on `edit` | Enforces performance and accessibility in mobile source files |
 
 ## Installation
@@ -18,7 +18,7 @@ copilot plugin install contoso-mobile@contoso-marketplace
 
 ## What It Does
 
-The **mobile-expert** agent enforces Contoso's mobile standards:
+The **contoso-mobile** agent enforces Contoso's mobile standards:
 
 - **Frameworks**: React Native (primary), Flutter (alternative)
 - **Platform support**: iOS 16+, Android API 28+, phones and tablets

@@ -6,8 +6,8 @@
 
 | Type | Name | Description |
 |------|------|-------------|
-| Agent | `dotnet-expert` | .NET/C# development expert |
-| Skill | `nuget-msbuild` | Package and build management |
+| Agent | `contoso-backend-dotnet` | .NET/C# development expert |
+| Skill | `contoso-backend-dotnet-nuget-msbuild` | Package and build management |
 | Hook | PreToolCall on `edit` | Enforces naming conventions and nullable reference types in `.cs` files |
 
 ## Installation
@@ -18,7 +18,7 @@ copilot plugin install contoso-backend-dotnet@contoso-marketplace
 
 ## What It Does
 
-The **dotnet-expert** agent enforces Contoso's .NET conventions:
+The **contoso-backend-dotnet** agent enforces Contoso's .NET conventions:
 
 - **.NET 8+** with C# 12 features (primary constructors, collection expressions, required members)
 - **Clean Architecture**: API → Application → Domain → Infrastructure

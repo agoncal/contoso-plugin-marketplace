@@ -6,8 +6,8 @@ Infrastructure-as-Code expertise — Terraform, Bicep, and CloudFormation genera
 
 | Type | Name | Description |
 |------|------|-------------|
-| Agent | `infra-expert` | Infrastructure-as-Code expert |
-| Skill | `iac` | Generate Terraform/Bicep configurations |
+| Agent | `contoso-infrastructure` | Infrastructure-as-Code expert |
+| Skill | `contoso-infrastructure-iac` | Generate Terraform/Bicep configurations |
 | Hook | PreToolCall on `create` | Enforces resource tagging and naming in `.tf`/`.bicep` files |
 
 ## Installation
@@ -18,7 +18,7 @@ copilot plugin install contoso-infrastructure@contoso-marketplace
 
 ## What It Does
 
-The **infra-expert** agent enforces Contoso's IaC standards:
+The **contoso-infrastructure** agent enforces Contoso's IaC standards:
 
 - **Tools**: Terraform (multi-cloud/AWS), Bicep (Azure-only)
 - **Naming**: `{company}-{environment}-{region}-{resource-type}-{name}` (e.g., `contoso-prod-eastus-rg-api`)

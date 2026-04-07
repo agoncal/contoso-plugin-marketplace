@@ -6,8 +6,8 @@ Generate, validate, and optimize CI/CD pipeline configurations for GitHub Action
 
 | Type | Name | Description |
 |------|------|-------------|
-| Agent | `pipeline-assistant` | CI/CD pipeline generator and optimizer |
-| Skill | `pipeline` | Generate and validate CI/CD configurations |
+| Agent | `contoso-ci-cd` | CI/CD pipeline generator and optimizer |
+| Skill | `contoso-ci-cd-pipeline` | Generate and validate CI/CD configurations |
 | Hook | PostToolCall on `create` | Validates pipeline YAML syntax after creation |
 
 ## Installation
@@ -18,7 +18,7 @@ copilot plugin install contoso-ci-cd@contoso-marketplace
 
 ## What It Does
 
-The **pipeline-assistant** agent generates and optimizes CI/CD pipelines:
+The **contoso-ci-cd** agent generates and optimizes CI/CD pipelines:
 
 - **GitHub Actions** (primary), Azure DevOps, and Jenkins support
 - **Standard workflows**: CI (lint, test, coverage), CD (build, deploy staging/prod), Security (dependency scan, SAST)

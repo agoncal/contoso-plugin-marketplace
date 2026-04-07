@@ -6,8 +6,8 @@ Java and Spring Boot development — Maven/Gradle management, Spring patterns, a
 
 | Type | Name | Description |
 |------|------|-------------|
-| Agent | `java-expert` | Java/Spring Boot development expert |
-| Skill | `maven-gradle` | Build tool management |
+| Agent | `contoso-backend-java` | Java/Spring Boot development expert |
+| Skill | `contoso-backend-java-maven-gradle` | Build tool management |
 | Hook | PreToolCall on `edit` | Enforces constructor injection and Contoso Java standards in `.java` files |
 
 ## Installation
@@ -18,7 +18,7 @@ copilot plugin install contoso-backend-java@contoso-marketplace
 
 ## What It Does
 
-The **java-expert** agent enforces Contoso's Java standards:
+The **contoso-backend-java** agent enforces Contoso's Java standards:
 
 - **Java 21+**: Records, sealed classes, pattern matching, virtual threads
 - **Spring Boot 3.x**: Layered architecture (Controller → Service → Repository)

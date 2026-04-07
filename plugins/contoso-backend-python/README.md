@@ -6,8 +6,8 @@ Python development — pip/Poetry management, FastAPI/Django patterns, and Conto
 
 | Type | Name | Description |
 |------|------|-------------|
-| Agent | `python-expert` | Python development expert with modern tooling |
-| Skill | `pip-poetry` | Dependency management |
+| Agent | `contoso-backend-python` | Python development expert with modern tooling |
+| Skill | `contoso-backend-python-pip-poetry` | Dependency management |
 | Hook | PreToolCall on `edit` | Enforces type hints and docstrings in `.py` files |
 
 ## Installation
@@ -18,7 +18,7 @@ copilot plugin install contoso-backend-python@contoso-marketplace
 
 ## What It Does
 
-The **python-expert** agent enforces Contoso's Python standards:
+The **contoso-backend-python** agent enforces Contoso's Python standards:
 
 - **Python 3.12+**: Type hints, match statements, f-strings, `type` statement
 - **Poetry** for dependency management (not pip directly)

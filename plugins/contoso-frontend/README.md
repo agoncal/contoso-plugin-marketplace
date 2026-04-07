@@ -6,8 +6,8 @@ General frontend development expertise — UI component scaffolding, accessibili
 
 | Type | Name | Description |
 |------|------|-------------|
-| Agent | `frontend-expert` | Frontend development expert with accessibility focus |
-| Skill | `component` | Scaffold accessible UI components |
+| Agent | `contoso-frontend` | Frontend development expert with accessibility focus |
+| Skill | `contoso-frontend-component` | Scaffold accessible UI components |
 | Hook | PreToolCall on `edit` | Enforces accessibility attributes in HTML/JSX/TSX files |
 
 ## Installation
@@ -18,7 +18,7 @@ copilot plugin install contoso-frontend@contoso-marketplace
 
 ## What It Does
 
-The **frontend-expert** agent helps build accessible, performant UIs using the Contoso design system:
+The **contoso-frontend** agent helps build accessible, performant UIs using the Contoso design system:
 
 - **Accessibility**: WCAG 2.1 AA compliance — semantic HTML, ARIA attributes, keyboard navigation, focus management
 - **Responsive design**: Contoso breakpoints (320px mobile, 768px tablet, 1024px desktop, 1440px wide)

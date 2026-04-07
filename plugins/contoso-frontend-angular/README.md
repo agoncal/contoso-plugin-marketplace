@@ -6,8 +6,8 @@ Angular-specific development — component/service generation, RxJS patterns, an
 
 | Type | Name | Description |
 |------|------|-------------|
-| Agent | `angular-expert` | Angular development expert with signals and RxJS |
-| Skill | `ng-scaffold` | Angular component/service scaffolding |
+| Agent | `contoso-frontend-angular` | Angular development expert with signals and RxJS |
+| Skill | `contoso-frontend-angular-ng-scaffold` | Angular component/service scaffolding |
 | Hook | PreToolCall on `create` | Enforces OnPush change detection and standalone components |
 
 ## Installation
@@ -18,7 +18,7 @@ copilot plugin install contoso-frontend-angular@contoso-marketplace
 
 ## What It Does
 
-The **angular-expert** agent enforces Contoso's Angular standards:
+The **contoso-frontend-angular** agent enforces Contoso's Angular standards:
 
 - **Standalone components** with OnPush change detection by default
 - **Signals**: Angular signals (`signal()`, `computed()`, `effect()`) for reactive state

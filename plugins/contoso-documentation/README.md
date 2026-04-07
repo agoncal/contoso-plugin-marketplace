@@ -6,8 +6,8 @@ Generate and maintain API docs, READMEs, and architecture decision records follo
 
 | Type | Name | Description |
 |------|------|-------------|
-| Agent | `doc-writer` | Documentation specialist following Contoso standards |
-| Skill | `generate-docs` | API/README documentation generation |
+| Agent | `contoso-documentation` | Documentation specialist following Contoso standards |
+| Skill | `contoso-documentation-generate-docs` | API/README documentation generation |
 | Hook | PostToolCall on `create` | Checks if documentation needs updating when files are created |
 
 ## Installation
@@ -18,7 +18,7 @@ copilot plugin install contoso-documentation@contoso-marketplace
 
 ## What It Does
 
-The **doc-writer** agent generates and maintains documentation following Contoso's standards:
+The **contoso-documentation** agent generates and maintains documentation following Contoso's standards:
 
 - **README files** using the Contoso template (Title, Description, Prerequisites, Installation, Usage, API Reference, Configuration, Testing, Contributing, License)
 - **API documentation** with endpoint details, request/response examples, and error codes

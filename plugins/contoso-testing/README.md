@@ -6,8 +6,8 @@ Generate unit, integration, and end-to-end tests with coverage tracking and test
 
 | Type | Name | Description |
 |------|------|-------------|
-| Agent | `test-generator` | Test generation agent following Contoso testing standards |
-| Skill | `generate-tests` | Generate unit/integration tests |
+| Agent | `contoso-testing` | Test generation agent following Contoso testing standards |
+| Skill | `contoso-testing-generate-tests` | Generate unit/integration tests |
 | Hook | PostToolCall on `create` | Reminds to create tests when new source files are added |
 
 ## Installation
@@ -18,7 +18,7 @@ copilot plugin install contoso-testing@contoso-marketplace
 
 ## What It Does
 
-The **test-generator** agent creates comprehensive tests following Contoso standards:
+The **contoso-testing** agent creates comprehensive tests following Contoso standards:
 
 - **Coverage**: Minimum 80% line, 70% branch, 100% for critical paths (auth, payments)
 - **Naming convention**: `should_[expected]_when_[condition]`
