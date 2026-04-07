@@ -2,6 +2,13 @@
 marp: true
 theme: default
 paginate: true
+title: "Packaging AI Custom Files for the Enterprise"
+description: >
+  Copying Markdown files into each repository doesn't scale. In this presentation I'll show how
+  enterprises can bundle customization files (agents, skills, and hooks) into versioned plugins,
+  publish them to a marketplace, and let developer use them. Organization-wide standards becomes
+  discoverable, maintainable and sharable.
+author: Contoso Engineering
 style: |
   section {
     font-family: 'Segoe UI', sans-serif;
