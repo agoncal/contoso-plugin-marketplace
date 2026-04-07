@@ -2,10 +2,19 @@
   "name": "contoso-documentation",
   "description": "Generate and maintain API docs, READMEs, and architecture decision records following Contoso documentation standards.",
   "version": "1.0.0",
-  "author": { "name": "Contoso Engineering", "email": "engineering@contoso.com" },
+  "author": {
+    "name": "Contoso Engineering",
+    "email": "engineering@contoso.com"
+  },
   "license": "MIT",
-  "keywords": ["documentation", "api-docs", "readme"],
+  "keywords": [
+    "documentation",
+    "api-docs",
+    "readme"
+  ],
   "agents": "agents/",
-  "skills": ["skills/"],
+  "skills": [
+    "skills/"
+  ],
   "hooks": "hooks.json"
 }

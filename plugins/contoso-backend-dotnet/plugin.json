@@ -2,10 +2,20 @@
   "name": "contoso-backend-dotnet",
   "description": ".NET and C# development — NuGet/MSBuild management, ASP.NET patterns, and Contoso .NET conventions.",
   "version": "1.0.0",
-  "author": { "name": "Contoso Engineering", "email": "engineering@contoso.com" },
+  "author": {
+    "name": "Contoso Engineering",
+    "email": "engineering@contoso.com"
+  },
   "license": "MIT",
-  "keywords": ["dotnet", "csharp", "aspnet", "nuget"],
+  "keywords": [
+    "dotnet",
+    "csharp",
+    "aspnet",
+    "nuget"
+  ],
   "agents": "agents/",
-  "skills": ["skills/"],
+  "skills": [
+    "skills/"
+  ],
   "hooks": "hooks.json"
 }

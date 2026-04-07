@@ -2,10 +2,19 @@
   "name": "contoso-code-quality",
   "description": "Code quality enforcement with auto-fix for linting issues, formatting standards, and complexity checks.",
   "version": "1.0.0",
-  "author": { "name": "Contoso Engineering", "email": "engineering@contoso.com" },
+  "author": {
+    "name": "Contoso Engineering",
+    "email": "engineering@contoso.com"
+  },
   "license": "MIT",
-  "keywords": ["quality", "linting", "formatting"],
+  "keywords": [
+    "quality",
+    "linting",
+    "formatting"
+  ],
   "agents": "agents/",
-  "skills": ["skills/"],
+  "skills": [
+    "skills/"
+  ],
   "hooks": "hooks.json"
 }

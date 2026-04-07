@@ -2,10 +2,20 @@
   "name": "contoso-frontend",
   "description": "General frontend development expertise — UI component scaffolding, accessibility compliance, and responsive design patterns.",
   "version": "1.0.0",
-  "author": { "name": "Contoso Engineering", "email": "engineering@contoso.com" },
+  "author": {
+    "name": "Contoso Engineering",
+    "email": "engineering@contoso.com"
+  },
   "license": "MIT",
-  "keywords": ["frontend", "ui", "accessibility", "responsive"],
+  "keywords": [
+    "frontend",
+    "ui",
+    "accessibility",
+    "responsive"
+  ],
   "agents": "agents/",
-  "skills": ["skills/"],
+  "skills": [
+    "skills/"
+  ],
   "hooks": "hooks.json"
 }

@@ -2,10 +2,19 @@
   "name": "contoso-testing",
   "description": "Generate unit, integration, and end-to-end tests with coverage tracking and test strategy guidance.",
   "version": "1.0.0",
-  "author": { "name": "Contoso Engineering", "email": "engineering@contoso.com" },
+  "author": {
+    "name": "Contoso Engineering",
+    "email": "engineering@contoso.com"
+  },
   "license": "MIT",
-  "keywords": ["testing", "unit-tests", "coverage"],
+  "keywords": [
+    "testing",
+    "unit-tests",
+    "coverage"
+  ],
   "agents": "agents/",
-  "skills": ["skills/"],
+  "skills": [
+    "skills/"
+  ],
   "hooks": "hooks.json"
 }

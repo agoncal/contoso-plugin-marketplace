@@ -2,10 +2,20 @@
   "name": "contoso-backend-typescript",
   "description": "TypeScript and Node.js backend development — project configuration, Express/NestJS patterns, and strict typing enforcement.",
   "version": "1.0.0",
-  "author": { "name": "Contoso Engineering", "email": "engineering@contoso.com" },
+  "author": {
+    "name": "Contoso Engineering",
+    "email": "engineering@contoso.com"
+  },
   "license": "MIT",
-  "keywords": ["typescript", "nodejs", "express", "nestjs"],
+  "keywords": [
+    "typescript",
+    "nodejs",
+    "express",
+    "nestjs"
+  ],
   "agents": "agents/",
-  "skills": ["skills/"],
+  "skills": [
+    "skills/"
+  ],
   "hooks": "hooks.json"
 }
