@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "type": "PreToolCall",
+      "matcher": "edit",
+      "prompt": "Before editing any HTML, JSX, or TSX file, enforce the following Contoso accessibility requirements:\n\n1. Every <img> element MUST have a descriptive `alt` attribute. Decorative images should use `alt=\"\"`.\n2. All interactive elements (<button>, <a>, custom controls) MUST have an `aria-label` or visible text content.\n3. Use semantic HTML elements (<nav>, <main>, <header>, <footer>, <section>, <article>) instead of generic <div> wrappers.\n4. Form inputs MUST have associated <label> elements or `aria-label`/`aria-labelledby` attributes.\n5. Ensure proper heading hierarchy — do not skip heading levels (e.g., <h1> followed by <h3>).\n6. All focusable elements must have a visible focus indicator — never set `outline: none` without a replacement.\n7. Color contrast must meet WCAG 2.1 AA minimum ratios (4.5:1 for normal text, 3:1 for large text).\n8. ARIA roles must be used correctly — do not add `role` attributes to elements that already have implicit roles.\n\nIf the file being edited is not an HTML, JSX, or TSX file, skip these checks."
+    }
+  ]
+}

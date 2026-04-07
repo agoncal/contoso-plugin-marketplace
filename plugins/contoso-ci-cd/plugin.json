@@ -1,0 +1,11 @@
+{
+  "name": "contoso-ci-cd",
+  "description": "Generate, validate, and optimize CI/CD pipeline configurations for GitHub Actions, Azure DevOps, and Jenkins.",
+  "version": "1.0.0",
+  "author": { "name": "Contoso Engineering", "email": "engineering@contoso.com" },
+  "license": "MIT",
+  "keywords": ["ci-cd", "pipeline", "automation"],
+  "agents": "agents/",
+  "skills": ["skills/"],
+  "hooks": "hooks.json"
+}

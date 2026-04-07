@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "type": "PreToolCall",
+      "matcher": "create",
+      "prompt": "Before creating any .tf or .bicep file, verify the following Contoso IaC standards are met:\n\n1. **Resource Naming**: All resource names follow the pattern `{company}-{environment}-{region}-{resource-type}-{name}` (e.g., contoso-prod-eastus-rg-api). Storage accounts omit hyphens due to Azure naming restrictions.\n\n2. **Mandatory Tags**: Every resource includes all four required tags: `environment`, `team`, `cost-center`, and `managed-by`. If any tag is missing, add it with a placeholder value and include a TODO comment.\n\n3. **No Hardcoded Secrets**: Scan the file content for any hardcoded passwords, connection strings, API keys, or secrets. Replace with Key Vault references or variable references.\n\n4. **Provider Version Pinning**: Terraform providers must use the pessimistic constraint operator (~>) with a specific minor version.\n\n5. **Lifecycle Rules**: Stateful resources (databases, storage, key vaults) must include `prevent_destroy = true`. Auto-scaled resources must include appropriate `ignore_changes` blocks.\n\nIf any standard is violated, fix the violation before creating the file. Add a comment at the top of the file indicating it was generated following Contoso IaC standards."
+    }
+  ]
+}

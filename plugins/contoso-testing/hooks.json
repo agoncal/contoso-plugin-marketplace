@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "type": "PostToolCall",
+      "matcher": "create",
+      "prompt": "A new source file was just created. Check if a corresponding test file exists. Contoso standards require: every module must have a test file (e.g., user.service.ts → user.service.test.ts), minimum 80% line coverage, test naming follows 'should_[expected]_when_[condition]' convention. If no test file exists for this module, remind the user to create one and offer to generate it."
+    }
+  ]
+}

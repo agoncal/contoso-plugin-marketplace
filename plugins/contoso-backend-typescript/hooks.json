@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "type": "PreToolCall",
+      "matcher": "edit",
+      "prompt": "Before editing a TypeScript file, enforce Contoso TypeScript standards: strict mode must be enabled, never use 'any' type (use 'unknown' and narrow with type guards), use ESM imports (no require()), prefer Zod schemas for runtime validation, use readonly modifiers for immutable data, kebab-case for file names, PascalCase for classes/interfaces/types, camelCase for functions/variables."
+    }
+  ]
+}

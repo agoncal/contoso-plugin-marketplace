@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "type": "PreToolCall",
+      "matcher": "edit",
+      "prompt": "Before editing any mobile source file (.tsx, .ts, .jsx, .js) within a React Native project path (containing 'src/features/', 'src/core/', 'src/shared/', or 'src/navigation/'), enforce Contoso mobile development standards:\n\n1. **Accessibility**: Every interactive element (Button, TouchableOpacity, Pressable, TextInput) must have an `accessibilityLabel` prop. All images must have `accessibilityLabel` or `accessible={false}` for decorative images. Touch targets must be at minimum 44x44pt — add `minHeight: 44, minWidth: 44` to touchable styles if not present.\n\n2. **Performance**: List components must use `FlashList` from `@shopify/flash-list` instead of `FlatList` for lists expected to exceed 100 items. All `Animated` API calls must include `useNativeDriver: true`. Avoid inline function definitions in `renderItem` props — extract to named components or use `useCallback`.\n\n3. **Offline Support**: Data fetching hooks must handle the offline case. Check for network connectivity before making API calls and fall back to cached data. Never show a blank screen when offline if cached data is available.\n\n4. **Error Handling**: Screens must be wrapped in an ErrorBoundary component. API errors must be caught and displayed with user-friendly messages, never raw error objects or stack traces.\n\n5. **Platform Compatibility**: Verify the edited code is compatible with both iOS 16+ and Android API 28+. Do not use platform-specific APIs without a fallback or Platform.select guard.\n\nIf any guideline is violated, fix the violation in the edit. Add a brief code comment only for non-obvious accessibility accommodations."
+    }
+  ]
+}

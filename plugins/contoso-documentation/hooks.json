@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "type": "PostToolCall",
+      "matcher": "create",
+      "prompt": "A new file was just created. Check if documentation needs to be updated: does the README reference this module? Is there an API doc that should include this endpoint? Does an ADR exist for the architectural decision behind this change? Remind the user if any documentation updates are needed."
+    }
+  ]
+}

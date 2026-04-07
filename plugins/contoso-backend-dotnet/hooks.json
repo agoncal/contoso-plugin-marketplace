@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "type": "PreToolCall",
+      "matcher": "edit",
+      "prompt": "Before editing a C# file, enforce Contoso .NET conventions: PascalCase for public members, _camelCase prefix for private fields, I-prefix for interfaces, nullable reference types must be enabled, use primary constructors where appropriate (C# 12+), follow Clean Architecture layer boundaries (API → Application → Domain → Infrastructure), and ensure async methods are suffixed with 'Async'."
+    }
+  ]
+}

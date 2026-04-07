@@ -1,0 +1,11 @@
+{
+  "name": "contoso-security",
+  "description": "Application security — OWASP-based vulnerability scanning, dependency audits, and security review workflows.",
+  "version": "1.0.0",
+  "author": { "name": "Contoso Engineering", "email": "engineering@contoso.com" },
+  "license": "MIT",
+  "keywords": ["security", "owasp", "vulnerability", "audit"],
+  "agents": "agents/",
+  "skills": ["skills/"],
+  "hooks": "hooks.json"
+}

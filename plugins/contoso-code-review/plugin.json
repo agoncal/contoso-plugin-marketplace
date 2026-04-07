@@ -1,0 +1,11 @@
+{
+  "name": "contoso-code-review",
+  "description": "Automated code review with Contoso coding standards enforcement, PR analysis, and improvement suggestions.",
+  "version": "1.0.0",
+  "author": { "name": "Contoso Engineering", "email": "engineering@contoso.com" },
+  "license": "MIT",
+  "keywords": ["code-review", "standards", "quality"],
+  "agents": "agents/",
+  "skills": ["skills/"],
+  "hooks": "hooks.json"
+}

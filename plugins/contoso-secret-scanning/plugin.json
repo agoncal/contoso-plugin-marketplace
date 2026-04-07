@@ -1,0 +1,11 @@
+{
+  "name": "contoso-secret-scanning",
+  "description": "Detect and prevent secrets, API keys, passwords, and credentials from being committed to repositories.",
+  "version": "1.0.0",
+  "author": { "name": "Contoso Engineering", "email": "engineering@contoso.com" },
+  "license": "MIT",
+  "keywords": ["security", "secrets", "scanning"],
+  "agents": "agents/",
+  "skills": ["skills/"],
+  "hooks": "hooks.json"
+}

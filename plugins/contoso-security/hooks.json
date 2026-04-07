@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "type": "PreToolCall",
+      "matcher": "bash",
+      "prompt": "Before executing any deploy, publish, release, or push-to-production command (including but not limited to `npm publish`, `docker push`, `az webapp deploy`, `kubectl apply`, `terraform apply`, `gh release`, `fastlane release`), enforce Contoso's deployment security gate:\n\n1. **Dependency Audit**: Confirm that a dependency vulnerability scan has been run (npm audit, pip audit, dotnet list package --vulnerable, or equivalent) and no critical or high severity CVEs remain unresolved.\n\n2. **Security Headers**: Verify that the application configures all required security headers (Strict-Transport-Security, X-Content-Type-Options, X-Frame-Options, Content-Security-Policy, Referrer-Policy, Permissions-Policy).\n\n3. **Secrets Check**: Confirm no hardcoded secrets, API keys, passwords, or connection strings exist in the codebase. Reference vault-managed secrets only.\n\n4. **HTTPS Enforcement**: Verify the deployment target enforces HTTPS with valid TLS certificates.\n\nIf any of these checks have not been performed or have failed, warn the user and recommend completing the Contoso security review checklist before proceeding. Do not block the command, but issue a prominent warning."
+    }
+  ]
+}

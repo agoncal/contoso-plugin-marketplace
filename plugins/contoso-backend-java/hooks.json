@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "type": "PreToolCall",
+      "matcher": "edit",
+      "prompt": "Before editing a Java file, enforce Contoso Java standards: use constructor injection (never field injection with @Autowired), follow naming conventions (PascalCase classes, camelCase methods, UPPER_SNAKE_CASE constants), limit Lombok to @Slf4j/@Builder/@RequiredArgsConstructor only, ensure proper exception handling with custom exceptions extending ContosoBaseException, and use Java 21+ features where applicable (records, sealed classes, pattern matching)."
+    }
+  ]
+}

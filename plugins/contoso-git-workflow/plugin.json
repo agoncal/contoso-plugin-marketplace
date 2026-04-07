@@ -1,0 +1,11 @@
+{
+  "name": "contoso-git-workflow",
+  "description": "Enforce Contoso Git branching strategy, commit message conventions, and PR workflow automation.",
+  "version": "1.0.0",
+  "author": { "name": "Contoso Engineering", "email": "engineering@contoso.com" },
+  "license": "MIT",
+  "keywords": ["git", "workflow", "branching"],
+  "agents": "agents/",
+  "skills": ["skills/"],
+  "hooks": "hooks.json"
+}

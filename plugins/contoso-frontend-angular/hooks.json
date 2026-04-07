@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "type": "PreToolCall",
+      "matcher": "create",
+      "prompt": "When creating a `.component.ts` file, enforce the following Contoso Angular standards:\n\n1. Components MUST use `changeDetection: ChangeDetectionStrategy.OnPush` — the default change detection strategy is prohibited at Contoso.\n2. Components MUST be standalone (`standalone: true`) — NgModule-declared components are no longer permitted for new code.\n3. Use Angular signals (`signal()`, `computed()`, `effect()`) for reactive state instead of manual change detection or Subject-based patterns.\n4. The component selector MUST follow the `app-feature-name` naming convention with the `app-` prefix.\n5. Component files must follow the naming convention: `feature-name.component.ts`.\n6. Template and styles should be inline for small components (< 30 lines template) or in separate files for larger ones.\n7. Import `ChangeDetectionStrategy` and `Component` from `@angular/core` at the top of the file.\n8. Include required input signals using `input.required<T>()` for mandatory props and `input<T>()` for optional props.\n\nIf the file being created is not a `.component.ts` file, skip these checks."
+    }
+  ]
+}

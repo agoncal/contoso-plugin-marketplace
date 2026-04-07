@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "type": "PreToolCall",
+      "matcher": "create",
+      "prompt": "When creating a `.tsx` or `.jsx` file, enforce the following Contoso React standards:\n\n1. ALWAYS use functional components — class components are prohibited in the Contoso codebase.\n2. Components MUST be written in TypeScript (`.tsx`) with a fully typed props interface.\n3. Export the component as a named export, not a default export. Example: `export const MyComponent: React.FC<MyComponentProps> = ({ ... }) => { ... };`\n4. Define the props interface directly above the component with the naming convention `<ComponentName>Props`.\n5. Include a JSDoc comment above the component describing its purpose.\n6. If the component accepts children, type them explicitly using `React.ReactNode`.\n7. Place hooks at the top of the component body before any conditional logic or early returns.\n8. Add `'use client'` directive at the top of the file if the component uses browser APIs, event handlers, or React hooks.\n\nIf the file being created is not a `.tsx` or `.jsx` file, skip these checks."
+    }
+  ]
+}

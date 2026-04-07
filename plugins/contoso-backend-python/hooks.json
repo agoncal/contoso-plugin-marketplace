@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "type": "PreToolCall",
+      "matcher": "edit",
+      "prompt": "Before editing a Python file, enforce Contoso Python standards: all functions must have type hints on parameters and return types, include Google-style docstrings for public functions and classes, maximum line length of 120 characters, use f-strings for string formatting (no .format() or % formatting), use pathlib instead of os.path, and ensure async/await for I/O-bound operations."
+    }
+  ]
+}

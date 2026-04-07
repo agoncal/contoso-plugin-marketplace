@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "type": "PreToolCall",
+      "matcher": "edit",
+      "prompt": "Before applying this edit, check that the code follows Contoso quality standards: cyclomatic complexity must not exceed 10 per function, no code duplication (extract shared logic into helper functions), consistent formatting with the project's linter configuration, and proper use of language-specific conventions. Suggest fixes for any violations."
+    }
+  ]
+}

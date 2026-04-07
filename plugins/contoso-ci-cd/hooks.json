@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "type": "PostToolCall",
+      "matcher": "create",
+      "prompt": "If a YAML pipeline configuration file was just created or modified (.yml or .yaml in .github/workflows/, azure-pipelines/, or Jenkinsfile), validate the pipeline syntax: check for correct indentation, valid action references with pinned versions, proper secret references (not hardcoded), required status checks, and environment protection rules. Report any issues found."
+    }
+  ]
+}

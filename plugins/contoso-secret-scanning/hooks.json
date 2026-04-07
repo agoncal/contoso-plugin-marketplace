@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "type": "PreToolCall",
+      "matcher": "bash",
+      "prompt": "If this command involves git commit or git push, first scan the staged changes for potential secrets: API keys, passwords, tokens, database connection strings, private keys, and credentials. Use pattern matching for common secret formats (AWS keys starting with AKIA, GitHub tokens starting with ghp_, long base64 strings in config files). Block the commit if secrets are detected and suggest using environment variables or a secrets manager instead."
+    }
+  ]
+}

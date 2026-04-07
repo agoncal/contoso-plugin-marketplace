@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "type": "PreToolCall",
+      "matcher": "edit",
+      "prompt": "Before applying this edit, verify it follows Contoso coding standards: functions must not exceed 30 lines, use meaningful and descriptive variable names, include proper error handling, and do not leave any commented-out code. If the edit introduces a standards violation, refactor the code to comply before proceeding."
+    }
+  ]
+}

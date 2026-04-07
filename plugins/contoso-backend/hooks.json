@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "type": "PreToolCall",
+      "matcher": "create",
+      "prompt": "If the file being created is a route, controller, or endpoint handler: (1) Ensure all routes are nested under a versioned path prefix such as /api/v1/. (2) Ensure every endpoint returns errors in Contoso's standard error format: { \"error\": { \"code\": \"...\", \"message\": \"...\", \"details\": [...] } }. (3) Ensure proper HTTP status codes are used for each operation. (4) Ensure request validation is implemented for all input parameters and request bodies. (5) Include HATEOAS _links in resource responses."
+    }
+  ]
+}
