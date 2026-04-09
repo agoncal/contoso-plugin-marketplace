@@ -72,7 +72,7 @@
     {
       "name": "contoso-backend",
       "description": "General backend and API development — REST/GraphQL API design, microservice patterns, and Contoso API conventions.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "source": "./plugins/contoso-backend"
     },
     {
