@@ -42,7 +42,7 @@
     {
       "name": "contoso-ci-cd",
       "description": "Generate, validate, and optimize CI/CD pipeline configurations for GitHub Actions, Azure DevOps, and Jenkins.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "source": "./plugins/contoso-ci-cd"
     },
     {
