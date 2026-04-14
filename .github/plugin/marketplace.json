@@ -78,7 +78,7 @@
     {
       "name": "contoso-backend-java",
       "description": "Java and Spring Boot development — Maven/Gradle management, Spring patterns, and Contoso Java coding standards.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "source": "./plugins/contoso-backend-java"
     },
     {
